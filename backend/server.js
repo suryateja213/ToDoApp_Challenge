@@ -14,6 +14,10 @@ if (process.env.NODE_ENV !== 'test') {
   connectDB();
 }
 
+app.get('/', (req, res) => {
+  res.send('Server is running!');
+});
+
 app.use('/api', require('./routes/authRoutes'));
 app.use('/api/tasks', require('./routes/taskRoutes'));
 
