@@ -96,9 +96,8 @@ Frontend runs on `http://localhost:5173`
 - **PUT** - `/api/tasks/:id` - Update a task
 - **DELETE** - `/api/tasks/:id` - Delete a task
 
-
-
-
+## Live Demo
+You can access the website here: (https://storied-starlight-30cb3d.netlify.app/)
  
 
 
